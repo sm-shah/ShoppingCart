@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatBadgeModule } from '@angular/material/badge';
 import { HomeComponent } from './components/home/home.component';
 import { MatCardModule } from '@angular/material/card';
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -6,7 +6,7 @@ import { ProductsComponent } from './components/product/products.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
-
+import { NgxImgZoomModule } from 'ngx-img-zoom';
 
 
 @NgModule({
@@ -16,7 +16,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     ProductsRoutingModule,
     MatButtonModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    NgxImgZoomModule
   ]
 })
 export class ProductsModule { }
