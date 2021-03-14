@@ -1,0 +1,26 @@
+.margin-left-name {
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.margin-left-menu {
+  margin-left: 40px;
+  cursor: pointer;
+
+}
+
+.cart-icon {
+  float: right;
+  margin-right: 80px;
+  cursor: pointer;
+
+}
+
+.menu {
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+}

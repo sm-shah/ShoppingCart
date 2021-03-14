@@ -1,0 +1,13 @@
+ <mat-toolbar class="header">
+    <span>My Shoppie</span>
+    <div class="menu">
+      <span class="margin-left-name" [routerLink]="'/'">home</span>
+      <span class="margin-left-menu" [routerLink]="'/products'">products</span>
+      <span class="margin-left-menu">about</span>
+      <button [matBadge] = "getProductsCount()" [routerLink]="'/cart'" mat-icon-button class="cart-icon">
+        <span class="material-icons">
+          shopping_cart
+        </span>
+      </button>
+    </div>
+  </mat-toolbar>
